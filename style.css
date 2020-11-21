@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.14rem;
+}
+
+main { min-height: calc(100vh - 180px); }
+
+a:hover { text-decoration: none; }
+
+.header_main-header {
+    height: 60px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.header_main-header a {
+    display: block;
+    font-size: 1rem;
+}
+
+.header_main-header i {
+    font-size: 1.25rem;
+    margin-right: 5px;
+}
+
+main section { padding: 10px; }
+
+.div_output-display { padding: 1rem 1.25rem; }
+
+.footer_main-footer {
+    height: 120px;
+    background-color: #333;
+    font-size: 1rem;
+    color: rgb(255, 250, 250);
+}
+
+.div_footer-content {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_authors-list h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    body { font-size: 1rem; }
+
+    .jumbotron{ text-align: center; }
+
+    .jumbotron h1 { font-size: 2rem; }
+    
+    .jumbotron p { font-size: 1rem; }
+
+    main { min-height: calc(100vh - 200px); }
+
+    .footer_main-footer { 
+        height: 140px;
+        font-size: 0.8rem;
+    }
+
+    .div_footer-content {
+        padding: 10px;
+        flex-direction: column;
+        -ms-flex-direction: column;
+        justify-content: center;
+    }
+
+    .div_footer-content div:first-child { margin: 15px 0; }
+
+    .div_authors-list { 
+        font-size: 1rem;
+        text-align: center;
+    }
+}
