@@ -1,3 +1,3 @@
 # Lorem Ipsum Generator
 # 🏃 Executar
-https://isaccanedo.github.io/Lorem-Ipsum-Generator/
+ <a href="https://isaccanedo.github.io/Lorem-Ipsum-Generator/" target="_blank">https://isaccanedo.github.io/Lorem-Ipsum-Generator/</a>
